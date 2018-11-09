@@ -11,9 +11,6 @@
 	2016-05
 	Move to pywikibot-core after WMF decided to stop supporting http redirection
 # CC-BY-SA-4.0
-#
-wget -N http://gdurl.com/cQhQ/download -O ~/pywikibot-compat/DBreportUsers.py
-jsub -N userlist python ~/pywikibot-compat/DBreportUsers.py
 """
 status = "Almost full working again, query takes an awfully long time to run. A WMF decision at the end of 2015 to delete table ''user_daily_contribs'' forced a significant rewrite of the queries behind this report, meaning it can take hours and many queries rather than taking seconds to produce. See ([[Phab:T115711]])."
 
